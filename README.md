@@ -1,0 +1,10 @@
+- FROM Kerala/Palakkad:Ottapalam
+- USER Rakesh R
+- COPY BE-CSE.edu /root/Education/
+- COPY RHCE.crt /root/MySkills/Certifications/
+- WORKDIR Metclouds Technologies 
+- RUN cat 2.5Years.txt
+- COPY SystemEngineerSkil.txt /root/MySkills/Linux/
+- WORKDIR Postiefs Technologies 
+- COPY ./DevopsSkilset.txt /root/MySkills/Devops/
+- CMD ['sh' , 'DevopsEngineer']
